@@ -1,0 +1,35 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+
+# Python virtual environment
+.venv/
+env/
+venv/
+
+# DeepStream-related folders
+DeepStream-Yolo/
+deepstream_python_apps/
+
+# Log files
+logs/
+*.log
+
+# Models
+models/
+
+# System files and archives
+*.deb
+*.tar.gz
+*.zip
+
+# CUDA and TensorRT
+cuda-keyring_*.deb
+TensorRT-*.tar.gz
+
+# Ignore everything in models/ but keep a .gitkeep if you use one
+# models/*
+# !models/.gitkeep
+.env
